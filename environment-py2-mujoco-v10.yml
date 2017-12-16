@@ -1,0 +1,267 @@
+name: py2-mujoco-v10
+channels:
+- anaconda
+- soumith
+- conda-forge
+- defaults
+dependencies:
+- tensorflow-tensorboard=0.1.5=py27_0
+- backports=1.0=py27_1
+- backports.weakref=1.0rc1=py27_1
+- bleach=1.5.0=py27_0
+- funcsigs=1.0.2=py_2
+- html5lib=0.9999999=py27_0
+- markdown=2.6.9=py27_0
+- mock=2.0.0=py27_0
+- pbr=3.1.1=py27_0
+- protobuf=3.3.2=py27_0
+- six=1.11.0=py27_1
+- webencodings=0.5=py27_0
+- werkzeug=0.12.2=py_1
+- certifi=2016.2.28=py27_0
+- cffi=1.10.0=py27_0
+- freetype=2.5.5=2
+- h5py=2.7.0=np113py27_0
+- hdf5=1.8.17=2
+- jbig=2.1=0
+- jpeg=9b=0
+- keras=2.0.5=py27_0
+- libffi=3.2.1=1
+- libgcc=5.2.0=0
+- libgfortran=3.0.0=1
+- libgpuarray=0.6.9=0
+- libpng=1.6.30=1
+- libtiff=4.0.6=3
+- mako=1.0.6=py27_0
+- markupsafe=1.0=py27_0
+- mkl=2017.0.3=0
+- mkl-service=1.1.2=py27_3
+- nose=1.3.7=py27_1
+- numpy=1.13.1=py27_0
+- olefile=0.44=py27_0
+- openssl=1.0.2l=0
+- pillow=4.2.1=py27_0
+- pip=9.0.1=py27_1
+- pycparser=2.18=py27_0
+- pygpu=0.6.9=py27_0
+- python=2.7.13=0
+- pyyaml=3.12=py27_0
+- readline=6.2=2
+- scipy=0.19.1=np113py27_0
+- setuptools=36.4.0=py27_1
+- sqlite=3.13.0=0
+- tensorflow=1.3.0=0
+- tensorflow-base=1.3.0=py27h0dbb4d0_1
+- theano=0.9.0=py27_0
+- tk=8.5.18=0
+- wheel=0.29.0=py27_0
+- xz=5.2.3=0
+- yaml=0.1.6=0
+- zlib=1.2.11=0
+- pytorch=0.2.0=py27ha262b23_4cu75
+- torchvision=0.1.9=py27hdb88a65_1
+- pip:
+  - actionlib==1.11.9
+  - angles==1.9.11
+  - atari-py==0.1.1
+  - backports-abc==0.5
+  - backports.functools-lru-cache==1.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - base-local-planner==1.12.13
+  - bondpy==1.7.19
+  - camera-calibration==1.12.20
+  - camera-calibration-parsers==1.11.12
+  - capabilities==0.2.0
+  - catkin==0.6.19
+  - chardet==3.0.4
+  - configparser==3.5.0
+  - controller-manager==0.9.4
+  - controller-manager-msgs==0.9.4
+  - controller-manager-tests==0.9.4
+  - create-dashboard==2.3.1
+  - create-driver==2.3.0
+  - create-node==2.3.0
+  - cv-bridge==1.11.15
+  - cycler==0.10.0
+  - decorator==4.1.2
+  - diagnostic-analysis==1.9.2
+  - diagnostic-common-diagnostics==1.9.2
+  - diagnostic-updater==1.9.2
+  - dynamic-reconfigure==1.5.48
+  - entrypoints==0.2.3
+  - enum34==1.1.6
+  - functools32==3.2.3.post2
+  - gazebo-plugins==2.4.15
+  - gazebo-ros==2.4.15
+  - gencpp==0.5.5
+  - genlisp==0.4.15
+  - genmsg==0.5.8
+  - genpy==0.5.10
+  - geodesy==0.5.2
+  - graphviz==0.8.1
+  - gym (/home/exbot/tfuser2-workspace/github/gym)==0.9.3
+  - idna==2.6
+  - image-geometry==1.11.15
+  - imageio==2.2.0
+  - interactive-markers==1.11.3
+  - ipykernel==4.6.1
+  - ipython==5.5.0
+  - ipython-genutils==0.2.0
+  - ipywidgets==7.0.3
+  - jinja2==2.9.6
+  - jsonschema==2.6.0
+  - jupyter==1.0.0
+  - jupyter-client==5.1.0
+  - jupyter-console==5.2.0
+  - jupyter-core==4.3.0
+  - kobuki-dashboard==0.4.2
+  - laser-geometry==1.6.4
+  - lxml==4.1.1
+  - matplotlib==2.1.0
+  - message-filters==1.11.21
+  - mistune==0.8
+  - mongodb-store==0.3.6
+  - moveit-commander==0.7.12
+  - moveit-ros-planning-interface==0.7.12
+  - moveit-ros-visualization==0.7.12
+  - mujoco-py (/home/exbot/tfuser2-workspace/github/mujoco-py-0.5.7)==0.5.7
+  - nbconvert==5.3.1
+  - nbformat==4.4.0
+  - notebook==5.2.0
+  - pandocfilters==1.4.2
+  - pathlib2==2.3.0
+  - pexpect==4.2.1
+  - pickleshare==0.7.4
+  - pluginlib==1.10.5
+  - prettytensor==0.7.4
+  - prompt-toolkit==1.0.15
+  - ptyprocess==0.5.2
+  - pydot==1.1.0
+  - pyglet==1.2.4
+  - pygments==2.2.0
+  - pymavlink==1.1.73
+  - pyopengl==3.1.0
+  - pyparsing==2.2.0
+  - python-dateutil==2.6.1
+  - python-qt-binding==0.2.19
+  - pytils==0.3
+  - pytz==2017.2
+  - pyzmq==16.0.2
+  - qt-dotgraph==0.2.32
+  - qt-gui==0.2.32
+  - qt-gui-cpp==0.2.32
+  - qt-gui-py-common==0.2.32
+  - qtconsole==4.3.1
+  - requests==2.18.4
+  - resource-retriever==1.11.8
+  - rocon-app-manager==0.7.13
+  - rocon-app-utilities==0.7.13
+  - rocon-apps==0.7.13
+  - rocon-console==0.1.23
+  - rocon-ebnf==0.1.23
+  - rocon-gateway==0.7.10
+  - rocon-gateway-utils==0.7.10
+  - rocon-hub==0.7.10
+  - rocon-hub-client==0.7.10
+  - rocon-interactions==0.1.23
+  - rocon-launch==0.1.23
+  - rocon-master-info==0.1.23
+  - rocon-python-comms==0.1.23
+  - rocon-python-redis==0.1.23
+  - rocon-python-utils==0.1.23
+  - rocon-python-wifi==0.1.23
+  - rocon-qt-library==0.7.12
+  - rocon-remocon==0.7.12
+  - rocon-semantic-version==0.1.23
+  - rocon-uri==0.1.23
+  - rosbag==1.11.21
+  - rosboost-cfg==1.11.14
+  - rosclean==1.11.14
+  - roscreate==1.11.14
+  - rosgraph==1.11.21
+  - roslaunch==1.11.21
+  - roslib==1.11.14
+  - roslint==0.10.0
+  - roslz4==1.11.21
+  - rosmake==1.11.14
+  - rosmaster==1.11.21
+  - rosmsg==1.11.21
+  - rosnode==1.11.21
+  - rosparam==1.11.21
+  - rospy==1.11.21
+  - rospy-message-converter==0.4.0
+  - rosservice==1.11.21
+  - rostest==1.11.21
+  - rostopic==1.11.21
+  - rosunit==1.11.14
+  - roswtf==1.11.21
+  - rqt-action==0.4.9
+  - rqt-bag==0.4.8
+  - rqt-bag-plugins==0.4.8
+  - rqt-console==0.4.8
+  - rqt-controller-manager==0.9.4
+  - rqt-dep==0.4.8
+  - rqt-graph==0.4.8
+  - rqt-gui==0.4.8
+  - rqt-gui-py==0.4.8
+  - rqt-image-view==0.4.9
+  - rqt-joint-trajectory-controller==0.9.4
+  - rqt-launch==0.4.8
+  - rqt-logger-level==0.4.8
+  - rqt-moveit==0.5.7
+  - rqt-msg==0.4.8
+  - rqt-nav-view==0.5.7
+  - rqt-plot==0.4.8
+  - rqt-pose-view==0.5.7
+  - rqt-publisher==0.4.8
+  - rqt-py-common==0.4.8
+  - rqt-py-console==0.4.8
+  - rqt-reconfigure==0.4.8
+  - rqt-robot-dashboard==0.5.7
+  - rqt-robot-monitor==0.5.7
+  - rqt-robot-steering==0.5.7
+  - rqt-runtime-monitor==0.5.7
+  - rqt-rviz==0.5.7
+  - rqt-service-caller==0.4.8
+  - rqt-shell==0.4.9
+  - rqt-srv==0.4.8
+  - rqt-tf-tree==0.5.8
+  - rqt-top==0.4.8
+  - rqt-topic==0.4.8
+  - rqt-web==0.4.8
+  - rviz==1.11.18
+  - scandir==1.6
+  - sensor-msgs==1.11.9
+  - simplegeneric==0.8.1
+  - singledispatch==3.4.0.3
+  - smach==2.0.1
+  - smach-ros==2.0.1
+  - smclib==1.7.19
+  - srdfdom==0.3.5
+  - subprocess32==3.2.7
+  - terminado==0.6
+  - testpath==0.3.1
+  - tf==1.11.9
+  - tf-conversions==1.11.9
+  - tf2-geometry-msgs==0.5.16
+  - tf2-kdl==0.5.16
+  - tf2-py==0.5.16
+  - tf2-ros==0.5.16
+  - tf2-sensor-msgs==0.5.16
+  - tools==0.1.9
+  - torch==0.2.0.post4
+  - tornado==4.5.2
+  - tqdm==4.19.4
+  - traitlets==4.3.2
+  - unique-id==1.0.5
+  - urdfdom-py==0.3.3
+  - urllib3==1.22
+  - warehouse-ros==0.8.8
+  - wcwidth==0.1.7
+  - widgetsnbextension==3.0.6
+  - world-canvas-client-py==0.1.0
+  - world-canvas-server==0.1.0
+  - world-canvas-utils==0.1.0
+  - xacro==1.9.5
+prefix: /home/exbot/miniconda2/envs/py2-mujoco-v10
+
